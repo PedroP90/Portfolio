@@ -122,8 +122,12 @@ body{
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
-        
-
+    }
+    main nav#paginas a:hover {
+        color: white;
+        background-color: #2F88FF;
+        transition: 0.5s;
+        scale: 1.1;
     }
 
 }
