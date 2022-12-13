@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    background-image: url(/Portfolio/img/image.jpg);
+    background-repeat: no-repeat;
+    padding: 30px 30px 0px 30px;
+}
+
+@media (min-width: 999px) {
+
+    header #sociales {
+        justify-content: flex-end !important;
+        gap: 20px;
+    }
+
+    hr {
+        display: none;
+    }
+    main {
+        grid-template-areas: 
+        ".         ."
+        "figure    h1"
+        "figure    h3"
+        "figure    skills"
+        "hr         hr"
+        "paginas   paginas";
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 25px 100px 200px 200px ;
+        grid-column-gap: 20px;
+    }
+
+    main h1 {
+
+    }
+
+    main h3 {
+        grid-area: h3;
+        display: flex;
+        text-align: center;
+        color: white;
+        line-height: 40px;
+        font-family: 'Fredoka', sans-serif;
+        font-style: bold;
+        font-weight: 400;
+        font-size: 32px;
+        padding-right: 40px;
+        padding-left: 20px;
+        text-shadow:
+        -1px -1px 0 #000,
+         0   -1px 0 #000,
+         1px -1px 0 #000,
+         1px  0   0 #000,
+         1px  1px 0 #000,
+         0    1px 0 #000,
+        -1px  1px 0 #000,
+        -1px  0   0 #000;
+    }
+
+    main figure {
+        /* padding-right: 40px; */
+    }
+
+    main figure img {
+        height: 400px;
+        width: 400px;
+        /* padding-right: 40px; */
+        /* row-gap: 30px; */
+    }
+
+    main hr {
+        grid-area: hr;
+        display: flex;
+        height: 2px;
+        margin-top: 20px;
+    }
+
+
+}
