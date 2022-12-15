@@ -93,13 +93,9 @@ body{
     main #skills {
         display: none;
     }
-    main hr {
-        /* display: none; */
-    }
-
+    
     main nav#paginas {
         width: 100%;
-        /* border: 2px solid red; */
         display: flex;
         flex-flow: column wrap;
         gap: 32px;

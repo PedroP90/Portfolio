@@ -34,10 +34,6 @@ body{
         grid-column-gap: 20px;
     }
 
-    main h1 {
-
-    }
-
     main h3 {
         grid-area: h3;
         display: flex;
@@ -61,15 +57,9 @@ body{
         -1px  0   0 #000;
     }
 
-    main figure {
-        /* padding-right: 40px; */
-    }
-
     main figure img {
         height: 400px;
         width: 400px;
-        /* padding-right: 40px; */
-        /* row-gap: 30px; */
     }
 
     main hr {
@@ -78,6 +68,4 @@ body{
         height: 2px;
         margin-top: 20px;
     }
-
-
 }
